@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.text {
+    border: 1px solid red;
+    width: 200px;
+    color: aliceblue;
+    margin-left: 20%;
+    
+}
+
+
+
+
+.bg {
+    background-color: black;
+    height: 400px;
+
+}
+
+
+
+.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50%;
+    padding-top: 30px;
+
+}
+
+.pic {
+    height: 300px;
+    width: 300px;
+
+}
+
+.mini {
+    position: absolute;
+    height: 250px;
+    width: 150px;
+    animation-name: bounce;
+    animation-duration: 3s;
+
+}
+
+@keyframes bounce {
+    
+    from{
+        transform: translate(10px, -30px);
+
+    }
+
+    to{
+        transform: translate(10px, 30px);
+    }
+}
